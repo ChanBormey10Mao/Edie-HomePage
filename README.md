@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://chanbormey10mao.github.io/Edie-HomePage/">
       Demo
     </a>
     <span> | </span>
@@ -41,6 +41,10 @@
 ![screenshot](https://github.com/ChanBormey10Mao/Edie-HomePage/blob/master/assets/demo3.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+
+Where can I see demo :
+
+<a href="https://chanbormey10mao.github.io/Edie-HomePage/">
 
 
 ### Built With

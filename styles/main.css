@@ -92,6 +92,9 @@ input{
   font-family: Poppins;
   font-size: 1rem;
 }
+.logo{
+  padding-left: 1rem;
+}
 
 .email_submit{
   cursor: pointer;
@@ -103,6 +106,9 @@ input{
 }
 .break_space{
 margin: 3rem;
+}
+.intro_img{
+  margin-left: 5rem;
 }
 
 @media only screen and (min-width: 376px) {

@@ -1,0 +1,98 @@
+.text{
+    width: 50%;
+    padding-right: 3rem;
+}
+
+.meet_text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: #EB5757;
+}
+.pic{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.team_img{
+    background: url(image.png);
+    border-radius: 24px;
+    margin-right: 0.7rem;
+    margin-bottom: 0.7rem;
+    width: 100%;
+}
+
+.picCol1{
+    width: 60%;
+    margin-right: 0.7rem;
+    padding-top: 2rem;
+}
+.picCol2{
+    width: 40%;
+}
+#quote{
+    font-size: 24px;
+    line-height: 36px;
+    padding-left: 5rem;
+}
+.ref_wrapper{
+    display: flex;
+    flex-direction: row;
+    /* width: 30%; */
+}
+.sub_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.pf_pic{
+    width: 20%;
+    
+    border-radius: 6px;
+    margin-right: 1rem;
+}
+.name{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+.work_place{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #828282;
+}
+@media only screen and (min-width: 376px) {
+    .ref_wrapper{
+        padding-left: 5rem;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .team_wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .text{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .pic{
+        width: 100%;
+    }
+    .intro_edie{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    #quote{
+        padding-left: 0.2rem;
+    }
+   
+}
+

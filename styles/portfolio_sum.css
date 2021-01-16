@@ -1,0 +1,77 @@
+#port_INTRO{
+    padding-left: 5rem;
+    font-family: Poppins;
+    font-style: 2rem;
+    line-height: 60px;
+    color: #333333;
+    font-size: 3rem;
+    margin-top: 15px;
+    line-height: 4.5rem;
+    padding-bottom: 2rem;
+  }
+
+.sq_wrapper{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5rem;
+}
+.col_wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.5rem;
+}
+.full_wrapper{
+    margin-bottom: 3rem;
+}
+.skill_txt{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #828282;
+}
+.app_name{
+    /* width: 45%; */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+.img{
+    width: 100%;
+    /* background: #EB5757; */
+    border-radius: 12px;
+    margin-bottom: 0.2rem;
+}
+
+.see_more{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2D9CDB;
+}
+
+@media only screen and (min-width: 376px) {
+    .sq_wrapper{
+        margin-left: 5rem;
+    }
+    #col1{
+        margin-top: 3rem;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .sq_wrapper{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0.2rem;
+
+    }
+    #port_INTRO{
+        padding-left: 0.2rem;
+    }
+    
+}
